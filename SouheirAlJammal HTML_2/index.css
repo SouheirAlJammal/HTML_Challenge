@@ -1,0 +1,36 @@
+.pageTitle{
+    color:rgb(26, 26, 26);
+    width:100%;
+    font-size: 80px;
+text-align: center;
+}
+
+.navBar_menu{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50%;
+    height:6vh;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+.eltsMenu{
+
+font-weight: 800;
+font-size: 28px;
+    height: 1vh;
+    padding:2vh;
+
+}
+
+.eltsMenu:hover{
+    background-color: rgb(31, 30, 30);
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
