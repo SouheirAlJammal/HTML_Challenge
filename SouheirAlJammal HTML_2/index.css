@@ -1,36 +1,77 @@
-.pageTitle{
-    color:rgb(26, 26, 26);
-    width:100%;
+.pageTitle {
+    color: rgb(26, 26, 26);
+    width: 100%;
     font-size: 80px;
-text-align: center;
+    text-align: center;
 }
 
-.navBar_menu{
+.navBar_menu {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:50%;
-    height:6vh;
+    width: 50%;
+    height: 6vh;
     background-color: rgb(0, 0, 0);
     margin: auto;
+    padding: 8PX;
 }
 
-.eltsMenu{
 
-font-weight: 800;
-font-size: 28px;
-    height: 1vh;
-    padding:2vh;
 
-}
-
-.eltsMenu:hover{
-    background-color: rgb(31, 30, 30);
-}
-
-.links{
+.links {
     color: white;
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
     text-decoration: none;
 }
 
+.links:hover {
+    color: rgb(205, 204, 204);
+}
+
+img {
+    max-width: 600px;
+    height: auto;
+}
+
+.tips {
+    display: flex;
+    align-items: start;
+
+}
+
+.list--tips {
+    font-size: 24PX;
+    margin: 10px;
+
+}
+
+.list--tips>li {
+    margin: 8px;
+}
+
+.list--title {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
+
+section {
+    margin: 50PX auto;
+    width: 80%;
+    height: 30%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    width: max-content;
+    font-size: 28px;
+    margin: 10px 10px 20px 80vw;
+    padding: 10px;
+
+}
