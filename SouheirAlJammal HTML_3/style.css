@@ -75,14 +75,16 @@ flex-direction: column;
     background-color: rgb(159, 152, 168); 
     padding: 20px;
 }
-
+/* .info1{
+    height: 30%;
+} */
 .info1 > p{
     border-top: solid rgb(0, 0, 0) 1px;
 }
 
 .part2{
     columns: 2;
-    height: 60%;
+    height: 90%;
 
 }
 
@@ -91,13 +93,39 @@ flex-direction: column;
     padding: 15px;
 }
 
+.contact--info{
+    display: block;
+    width: 89%;
+    height: 40vh;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(159, 152, 168);;
+}
+label{
+    font-size: 20px;
+    padding: 20px;
+}
+input, textarea{
+    width: 20%;
+    height: 80%;
+
+}
+
+.button{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    margin: 5px;
+}
 footer{
     display: block;
     /* border-top: 1px solid black; */
     background-color: rgb(159, 152, 168);
     width: 90%;
     padding: 30px 0;
-    margin: -10px auto 20px auto;
+    margin: 10px auto 20px auto;
     font-size: 28px;
     text-align: center;
 }
