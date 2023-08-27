@@ -96,7 +96,7 @@ flex-direction: column;
 .contact--info{
     display: block;
     width: 89%;
-    height: 40vh;
+    height: 50vh;
     margin:auto;
     display: flex;
     flex-direction: column;
@@ -104,9 +104,9 @@ flex-direction: column;
 }
 label{
     font-size: 20px;
-    padding: 20px;
+    padding: 6px;
 }
-input, textarea{
+ textarea{
     width: 20%;
     height: 80%;
 
